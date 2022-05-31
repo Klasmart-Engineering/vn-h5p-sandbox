@@ -1,0 +1,111 @@
+{
+  "semantics": [
+    {
+      "label": "학습 과제 설명",
+      "description": "사용자를 위한 설명입니다.",
+      "default": "그리드에서 단어 찾기"
+    },
+    {
+      "label": "단어 목록",
+      "description": "쉼표로 구분된 단어 목록입니다. 특수 문자, 공백 및 숫자 허용되지 않음. In order to keep the grid size reasonable: Try to use words with 7 letters or less and keep the total number of words low.",
+      "default": "하나 둘 셋",
+      "regexp": {
+        "one": "",
+        "other": ""
+      }
+    },
+    {
+      "label": "행동 설정",
+      "description": "이 옵션을 사용하면 게임이 작동하는 방식을 제어할 수 있습니다.",
+      "fields": [
+        {
+          "label": "오리엔테이션",
+          "description": "퍼즐을 만들 때 사용해야 하는 단어 방향의 이름을 포함하는 배열",
+          "fields": [
+            {
+              "label": "수평 - 왼쪽에서 오른쪽"
+            },
+            {
+              "label": "수평 - 오른쪽에서 왼쪽"
+            },
+            {
+              "label": "수직 하향"
+            },
+            {
+              "label": "수직 상향"
+            },
+            {
+              "label": "대각선 아래쪽 - 왼쪽에서 오른쪽"
+            },
+            {
+              "label": "대각선 아래쪽 - 오른쪽에서 왼쪽"
+            },
+            {
+              "label": "대각선 위쪽 - 왼쪽에서 오른쪽"
+            },
+            {
+              "label": "대각선 위쪽 - 오른쪽에서 왼쪽"
+            }
+          ]
+        },
+        {
+          "label": "수직 하향",
+          "description": "공백을 채울 문자",
+          "default": "abcdefghijklmnopqrstuvwxy",
+          "regexp": {
+            "one": "",
+            "other": ""
+          }
+        },
+        {
+          "label": "겹침 선호",
+          "description": "단어 찾기가 퍼즐 내에서 단어를 배치할 위치를 결정하는 방법을 결정합니다. 옵션 선택 시 위치에서 겹치는 가장 많은 수의 문자를 임의로 선택하여 최대한 간결한 퍼즐을 만듭니다. 옵션 미선택 시 모든 유효한 위치 중에서 임의로 선택하게 되어 덜 간결한 퍼즐이 됩니다."
+        },
+        {
+          "label": "단어 보기",
+          "description": "플레이어에게 단어를 표시할지 여부를 결정합니다."
+        },
+        {
+          "label": "해답 보기 사용",
+          "description": "게임에 대한 해답 표시 버튼 추가"
+        },
+        {
+          "label": "재시도 활성화",
+          "description": "게임에 대한 재시도 버튼 추가"
+        }
+      ]
+    },
+    {
+      "label": "번역",
+      "fields": [
+        {
+          "label": "\"확인\" 버튼에 대한 텍스트",
+          "default": "확인"
+        },
+        {
+          "label": "\"재시도\" 버튼에 대한 텍스트",
+          "default": "재시도"
+        },
+        {
+          "label": "해답 보기 버튼 텍스트",
+          "default": "해답 보기"
+        },
+        {
+          "label": "카운터 텍스트",
+          "default": "@totalWords개 중 @found 발견",
+          "description": "피드백 텍스트에 사용 가능한 변수: @found 및 @totalWords. (예: '@totalWords 발견 중 @found')"
+        },
+        {
+          "label": "소요 시간 텍스트",
+          "default": "소요 시간",
+          "description": "게임을 플레이에 소요된 시간을 표시하기 위한 텍스트"
+        },
+        {
+          "label": "피드백 텍스트",
+          "default": "@total 포인트의 @score를 얻었습니다.",
+          "description": "피드백 텍스트에 사용 가능한 변수: @score 및 @total. (예: '당신은 @total 가능한 포인트의 @score를 얻었습니다')"
+        }
+      ]
+    }
+  ]
+}

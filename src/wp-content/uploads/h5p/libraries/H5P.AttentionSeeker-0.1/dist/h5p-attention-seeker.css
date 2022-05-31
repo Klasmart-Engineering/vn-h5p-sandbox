@@ -1,0 +1,22 @@
+.h5p-attention-seeker .h5p-attention-seeker-highlight-element{border:0;display:none;height:100%;margin:0;opacity:0;padding:0;position:absolute;width:100%;z-index:1}
+
+.h5p-attention-seeker.h5p-attention-seeker-bounce.h5p-attention-seeker-animation{animation:bounce;animation-duration:1s;transform-origin:center bottom}@keyframes bounce{from,20%,53%,to{animation-timing-function:cubic-bezier(0.215, 0.61, 0.355, 1);transform:translate3d(0, 0, 0)}40%,43%{animation-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06);transform:translate3d(0, -30px, 0) scaleY(1.1)}70%{animation-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06);transform:translate3d(0, -15px, 0) scaleY(1.05)}80%{transition-timing-function:cubic-bezier(0.215, 0.61, 0.355, 1);transform:translate3d(0, 0, 0) scaleY(0.95)}90%{transform:translate3d(0, -4px, 0) scaleY(1.02)}}
+
+.h5p-attention-seeker.h5p-attention-seeker-flash.h5p-attention-seeker-animation{animation:flash;animation-duration:1s}@keyframes flash{from,50%,to{opacity:1}25%,75%{opacity:0}}
+
+.h5p-attention-seeker.h5p-attention-seeker-focus.h5p-attention-seeker-preparation{pointer-events:none;z-index:9999 !important}.h5p-attention-seeker.h5p-attention-seeker-focus.h5p-attention-seeker-animation{animation:focus;animation-duration:1s}@keyframes focus{from{}40%{box-shadow:0 0 0 99999px rgba(0,0,0,0.8);border-radius:5px}60%{box-shadow:0 0 0 99999px rgba(0,0,0,0.8);border-radius:5px}to{}}
+
+.h5p-attention-seeker.h5p-attention-seeker-heartbeat.h5p-attention-seeker-animation{animation:heartbeat;animation-duration:1.3s;animation-timing-function:ease-in-out}@keyframes heartbeat{0%{transform:scale(1)}14%{transform:scale(1.3)}28%{transform:scale(1)}42%{transform:scale(1.3)}70%{transform:scale(1)}}
+
+.h5p-attention-seeker.h5p-attention-seeker-highlight.h5p-attention-seeker-preparation{pointer-events:none}.h5p-attention-seeker.h5p-attention-seeker-highlight.h5p-attention-seeker-animation{animation:highlight;animation-duration:1s;animation-timing-function:ease-in-out}.h5p-attention-seeker.h5p-attention-seeker-highlight.h5p-attention-seeker-animation .h5p-attention-seeker-highlight-element{animation:highlight-element;animation-duration:1s;display:block}@keyframes highlight-element{from{}40%{opacity:1}60%{opacity:1}to{}}@keyframes highlight{from{}to{}}.h5p-attention-seeker.h5p-attention-seeker-highlight .h5p-attention-seeker-highlight-element{background:rgba(255,224,128,0.35);border:1px solid #ffe080;border-radius:5px;box-shadow:0 0 17px 0 rgba(255,224,128,0.5);height:calc(100% - 2 * 1px);left:0;position:absolute;top:0;width:calc(100% - 2 * 1px)}
+
+.h5p-attention-seeker.h5p-attention-seeker-pulse.h5p-attention-seeker-animation{animation:pulse;animation-duration:1s;animation-timing-function:ease-in-out}@keyframes pulse{from{transform:scale3d(1, 1, 1)}50%{transform:scale3d(1.05, 1.05, 1.05)}to{transform:scale3d(1, 1, 1)}}
+
+.h5p-attention-seeker.h5p-attention-seeker-rubberband.h5p-attention-seeker-animation{animation:rubberband;animation-duration:1s}@keyframes rubberband{from{transform:scale3d(1, 1, 1)}30%{transform:scale3d(1.25, 0.75, 1)}40%{transform:scale3d(0.75, 1.25, 1)}50%{transform:scale3d(1.15, 0.85, 1)}65%{transform:scale3d(0.95, 1.05, 1)}75%{transform:scale3d(1.05, 0.95, 1)}to{transform:scale3d(1, 1, 1)}}
+
+.h5p-attention-seeker.h5p-attention-seeker-shakex.h5p-attention-seeker-animation{animation:shakex;animation-duration:1s}@keyframes shakex{from,to{transform:translate3d(0, 0, 0)}10%,30%,50%,70%,90%{transform:translate3d(-10px, 0, 0)}20%,40%,60%,80%{transform:translate3d(10px, 0, 0)}}
+
+.h5p-attention-seeker.h5p-attention-seeker-tada.h5p-attention-seeker-animation{animation:tada;animation-duration:1s}@keyframes tada{from{transform:scale3d(1, 1, 1)}10%,20%{transform:scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg)}30%,50%,70%,90%{transform:scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)}40%,60%,80%{transform:scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)}to{transform:scale3d(1, 1, 1)}}
+
+.h5p-attention-seeker.h5p-attention-seeker-wobble.h5p-attention-seeker-animation{animation:wobble;animation-duration:1s}@keyframes wobble{from{transform:translate3d(0, 0, 0)}15%{transform:translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg)}30%{transform:translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg)}45%{transform:translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg)}60%{transform:translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg)}75%{transform:translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)}to{transform:translate3d(0, 0, 0)}}
+

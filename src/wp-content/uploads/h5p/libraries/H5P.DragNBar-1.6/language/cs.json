@@ -1,0 +1,18 @@
+{
+  "libraryStrings": {
+    "transformLabel": "Změna",
+    "editLabel": "Upravit",
+    "removeLabel": "Odstranit",
+    "bringToFrontLabel": "Přenést dopředu",
+    "sendToBackLabel": "Přenést dozadu",
+    "unableToPaste": "Tento objekt nelze vložit. Objekt, který se pokoušíte vložit, bohužel tento typ nebo verzi obsahu nepodporuje.",
+    "sizeLabel": "Velikost",
+    "positionLabel": "Pozice",
+    "rotationLabel": "Rotation",    
+    "heightLabel": "Výška",
+    "widthLabel": "Šířka",
+    "copyLabel": "Kopírovat",
+    "paste": "Vložit",
+    "moreElements": "Více prvků"
+  }
+}

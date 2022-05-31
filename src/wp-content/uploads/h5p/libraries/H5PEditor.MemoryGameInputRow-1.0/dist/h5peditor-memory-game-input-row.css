@@ -1,0 +1,40 @@
+/*!******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/h5peditor-memory-game-input-row.scss ***!
+  \******************************************************************************************************************************************/
+.h5peditor-memory-game-input-row > .title {
+  background: none;
+  border: none;
+  height: auto;
+  line-height: inherit;
+  padding: 0;
+  color: #454347;
+}
+.h5peditor-memory-game-input-row > .title::before {
+  content: none;
+}
+.h5peditor-memory-game-input-row .h5peditor-memory-game-input-row-content {
+  margin: 0;
+}
+.h5peditor-memory-game-input-row .h5peditor-memory-game-input-row-content .h5peditor-memory-game-input-row-row {
+  display: flex;
+  flex-direction: row;
+}
+.h5peditor-memory-game-input-row .h5peditor-memory-game-input-row-content .h5peditor-memory-game-input-row-row > .field {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 0;
+}
+.h5peditor-memory-game-input-row .h5peditor-memory-game-input-row-content .h5peditor-memory-game-input-row-row > .field:not(:last-child) {
+  margin-right: 1em;
+}
+.h5peditor-memory-game-input-row .h5peditor-memory-game-input-row-content .h5peditor-memory-game-input-row-row > .field > label {
+  margin-right: 0.5em;
+}
+.h5peditor-memory-game-input-row .h5peditor-memory-game-input-row-content .h5peditor-memory-game-input-row-row > .field > label > span {
+  font-weight: normal;
+  font-size: 12px;
+}
+.h5peditor-memory-game-input-row .h5peditor-memory-game-input-row-content .h5p-errors p {
+  margin-bottom: 0;
+}

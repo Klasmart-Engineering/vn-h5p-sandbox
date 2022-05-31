@@ -1,0 +1,19 @@
+{
+  "title": "Font KidsLoop",
+  "contentType": "Font",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 0,
+  "machineName": "EditorFontKidsLoop",
+  "license": "APL2",
+  "author": "Google",
+  "preloadedCss": [
+    {
+      "path": "h5p-font-kidsloop.min.css"
+    },
+    {
+      "path": "h5p-editor-font-kidsloop.css"
+    }
+  ]
+}

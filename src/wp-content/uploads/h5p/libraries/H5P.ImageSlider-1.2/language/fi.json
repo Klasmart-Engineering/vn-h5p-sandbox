@@ -1,0 +1,84 @@
+{
+  "semantics": [
+    {
+      "label": "Kuvat",
+      "field": {
+        "label": "Liukuvat kuvat",
+        "fields": [
+          {
+            "label": "Liukuvat kuvat"
+          },
+          {
+            "label": "Audio",
+            "description": "Optional audio that plays when an image is shown."
+          }
+        ]
+      }
+    },
+    {
+      "label": "Kuvasuhde",
+      "description": "Automaattinen tarkoittaa kiinteää kuvasuhdetta joka määritetään automaattisesti kuvatiedoston perusteella",
+      "options": [
+        {
+          "label": "Automaattinen"
+        },
+        {
+          "label": "Räätälöity"
+        },
+        {
+          "label": "Ei kiinteää kuvasuhdetta"
+        }
+      ]
+    },
+    {
+      "label": "Kuvasuhdeasetukset",
+      "fields": [
+        {
+          "label": "Kuvasuhteen leveys",
+          "description": "Jos käytät tässä arvoa 4 ja korkeudelle arvoa 3 niin kuvasuhteeksi muodostuu 4:3"
+        },
+        {
+          "label": "Kuvasuhteen korkeus",
+          "description": "Jos käytät tässä arvoa 3 ja korkeudelle arvoa 4 niin kuvasuhteeksi muodostuu 4:3"
+        }
+      ]
+    },
+    {
+      "label": "Autoplay",
+      "description": "Check if the audio should try to play automatically when opening the content"
+    },
+    {
+      "label": "Localize",
+      "fields": [
+        {
+          "label": "Mute audio",
+          "default": "Mute audio"
+        },
+        {
+          "label": "Unmute audio",
+          "default": "Unmute audio"
+        }
+      ]
+    },
+    {
+      "label": "Liukuvien kuvien esteettömyysasetukset",
+      "fields": [
+        {
+          "label": "Teksti seuraavaan diaan vievälle painikkeelle",
+          "default": "Seuraava kuva",
+          "description": "Tätä käytetään ruudunlukijoille, sitä ei näytetä itse esityksessä."
+        },
+        {
+          "label": "Teksti edelliselle dialle vievälle painikkeelle",
+          "default": "Edellinen kuva",
+          "description": "Tätä käytetään ruudunlukijoille, sitä ei näytetä itse esityksessä."
+        },
+        {
+          "label": "Teksti slide-navigointipainikkeille",
+          "default": "Siirry kuvaan %slide",
+          "description": "Tätä käytetään ruudunlukijoille, sitä ei näytetä itse esityksessä. Muuttuja %slide korvataan kuvan sivunumerolla."
+        }
+      ]
+    }
+  ]
+}

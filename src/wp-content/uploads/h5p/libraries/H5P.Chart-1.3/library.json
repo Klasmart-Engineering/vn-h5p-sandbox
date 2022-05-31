@@ -1,0 +1,56 @@
+{
+  "title": "Chart",
+  "description": "Create different charts",
+  "majorVersion": 1,
+  "minorVersion": 3,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Joubel",
+  "license": "MIT",
+  "machineName": "H5P.Chart",
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 21
+  },
+  "embedTypes": [
+    "iframe"
+  ],
+  "preloadedCss": [
+    {
+      "path": "chart.css"
+    }
+  ],
+  "preloadedJs": [
+    {
+      "path": "chart.js"
+    },
+    {
+      "path": "d3.js"
+    },
+    {
+      "path": "pie.js"
+    },
+    {
+      "path": "bar.js"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontKidsLoop",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.ColorSelector",
+      "majorVersion": 1,
+      "minorVersion": 4
+    },
+    {
+      "machineName": "EditorFontKidsLoop",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ]
+}

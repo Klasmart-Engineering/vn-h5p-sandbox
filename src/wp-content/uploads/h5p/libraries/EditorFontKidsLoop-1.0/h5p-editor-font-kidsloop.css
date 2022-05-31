@@ -1,0 +1,39 @@
+.h5peditor {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Zebra_DatePicker {
+  font-family: 'Roboto', sans-serif;
+}
+
+.h5p-editing-image-popup,
+.h5p-editing-image-popup button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.h5peditor button,
+.h5peditor input,
+.h5peditor select,
+.h5peditor textarea {
+  font-family: inherit;
+}
+
+.h5peditor>select, .h5peditor .h5peditor-language-switcher select, .h5peditor h5peditor-select, .h5peditor .field>select {
+  font-family: inherit;
+}
+
+.h5peditor .h5p-editor-flex-wrapper {
+  height: 1.75em;
+}
+
+.h5peditor .h5peditor-button-textual {
+  font-family: inherit;
+}
+
+.h5peditor .h5p-editor-flex-wrapper {
+  height: 1.5em;
+}
+
+.h5peditor-field-description, .h5p-help-text {
+  font-weight: normal;
+}
