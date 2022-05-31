@@ -1,5 +1,4 @@
 wp-config.php
-wp-content/uploads
 *.phpproj
 *.phpproj.user
 *.sln
@@ -19,4 +18,5 @@ tools/package-lock.json
 .idea
 /nbproject/private/
 src/wp-config.php
-src/wp-content/uploads
+src/wp-content/uploads/*
+!src/wp-content/uploads/h5p
