@@ -1,12 +1,13 @@
 # vn-h5p-sandbox
 H5P libraries testing
 
-### __How to install, update & test.__
+### __Install, update & test__
 
 1. Setup localhost
 - Setup hosts & mysql local
 - Duplicate `wp-config-sample.php` to `wp-config.php` and update your localhost information.
 - Add .htaccess to root folder (Download here -> https://drive.google.com/drive/folders/1mIhad4trgbscNSP1wX5ARnjo4WzJXKub?usp=sharing)
+
 2. Update h5p libraries
 - Get the latest version here -> https://github.com/KL-Engineering/kidsloop-h5p-library (`h5p/libraries`)
 - Copy all libraries from this folder (`kidsloop-h5p-library/h5p/libraries`)
@@ -17,4 +18,9 @@ H5P libraries testing
 - Access `H5P Content` plugin -> Add new content (upload your content file)
 - Get the error if the libraries are missing
 - Add the missing library to database
-4. Testing
+4. Testing (localhost & staging site)
+
+
+### __Deploy__
+1. SRE team pull code from server
+2. Export database (h5p libraries from local) -> SRE team import it to server
