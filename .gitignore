@@ -20,3 +20,5 @@ tools/package-lock.json
 src/wp-config.php
 src/wp-content/uploads/*
 !src/wp-content/uploads/h5p
+src/wp-content/uploads/h5p/*
+!src/wp-content/uploads/h5p/libraries
